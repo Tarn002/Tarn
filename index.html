@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ระบบติดตามอุณหภูมิ</title>
+    <title>ระบบติดตามอุณหภูมิของตาลคนเดียวเพราะทำคนเดียว</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
@@ -425,7 +425,7 @@
         }
 
         // อัพเดตข้อมูลทุก 5 วินาที (ปรับจาก 200ms เป็น 5000ms)
-        setInterval(updateData, 1000);
+        setInterval(updateData, 3000);
         
         // อัพเดตข้อมูลทันทีเมื่อโหลดหน้าเว็บ
         updateData();
